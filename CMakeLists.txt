@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.13...3.27)
 include(pico_sdk_import.cmake)
 # Pull in SDK Extras (optional)
 include(pico_extras_import.cmake)
+# Pull in FreeRTOS (optional)
+#include(FreeRTOS_Kernel_import.cmake)
 
 project(pico_play C CXX ASM)
 set(CMAKE_C_STANDARD 11)
